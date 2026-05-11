@@ -29,8 +29,6 @@ Scopul proiectului a fost să înțeleg cum se construiesc porți logice de la z
 
 ## 📷 Circuit fizic
 
-> *(Adaugă pozele în `photos/` și înlocuiește placeholder-ele)*
-
 | Vedere generală | Detaliu TTL | Detaliu DTL |
 |:--------------------------:|:------------------------:|:------------------------:|
 | ![breadboard](./photos/breadboard_circuit.png) | ![ttl](./photos/breadboard_circuit_TTL.png) | ![dtl](./photos/breadboard_circuit_DTL.png) |
@@ -76,17 +74,6 @@ Scopul proiectului a fost să înțeleg cum se construiesc porți logice de la z
 
 ## 📐 Schema logică
 
-> *(Adaugă schema din Logisim în `schematic/schematic.png`)*
-
-```
-A ──┐
-    ├─ XOR #1 (TTL) ──┐
-B ──┘                  ├─ XOR #3 (SN74HC86N) ── LED
-C ──┐                  │
-    ├─ XOR #2 (DTL) ──┘
-D ──┘
-```
-
 ![Schematic](./schematic/schematic.png)
 
 ---
@@ -120,15 +107,11 @@ D ──┘
 
 ### Logisim Evolution
 
-> *(Adaugă screenshot tabel de adevăr din Logisim în `schematic/truth_table.png`)*
-
 ![Logisim Truth Table](./schematic/truth_table.png)
 
 Fișier circuit Logisim: [`schematic/circuit.circ`](./schematic/circuit.circ)
 
 ### LTspice
-
-> *(Adaugă screenshot simulare LTspice în `simulation/simulation_output.png`)*
 
 ![LTspice Simulation](./simulation/simulation_output.png)
 
