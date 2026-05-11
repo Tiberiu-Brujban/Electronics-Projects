@@ -29,8 +29,6 @@ The goal was to understand how logic gates are built from scratch and compare th
 
 ## 📷 Physical Build
 
-> *(Add your photos to `photos/` and replace the placeholders)*
-
 | Overview | TTL detail | DTL detail |
 |:--------------------------:|:------------------------:|:------------------------:|
 | ![breadboard](./photos/breadboard_circuit.png) | ![ttl](./photos/breadboard_circuit_TTL.png) | ![dtl](./photos/breadboard_circuit_DTL.png) |
@@ -76,17 +74,6 @@ The goal was to understand how logic gates are built from scratch and compare th
 
 ## 📐 Logic Diagram
 
-> *(Add the Logisim schematic to `schematic/schematic.png`)*
-
-```
-A ──┐
-    ├─ XOR #1 (TTL) ──┐
-B ──┘                  ├─ XOR #3 (SN74HC86N) ── LED
-C ──┐                  │
-    ├─ XOR #2 (DTL) ──┘
-D ──┘
-```
-
 ![Schematic](./schematic/schematic.png)
 
 ---
@@ -120,15 +107,11 @@ D ──┘
 
 ### Logisim Evolution
 
-> *(Add the Logisim truth table screenshot to `schematic/truth_table.png`)*
-
 ![Logisim Truth Table](./schematic/truth_table.png)
 
 Logisim circuit file: [`schematic/circuit.circ`](./schematic/circuit.circ)
 
 ### LTspice
-
-> *(Add the LTspice simulation screenshot to `simulation/simulation_output.png`)*
 
 ![LTspice Simulation](./simulation/simulation_output.png)
 
